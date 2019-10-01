@@ -2,7 +2,7 @@ package recursion;
 
 public class ArraySorted {
 	public static void main(String[] args) {
-		int[] arr = { 3, 5, 7, 9, 6 };
+		int[] arr = { 3, 5, 7, 9, 65 };
 		System.out.println(sArray(arr, 0));
 
 	}
