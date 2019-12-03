@@ -3,9 +3,10 @@ package recursion;
 public class NumberList {
     public static void main(String[] args) {
     System.out.println("Hello");
-    PDI(5);
-    PD(5);
-    PI(5);
+//    PDI(5);
+//    PD(5);
+//    PI(5);
+      PDIskip(5);
     }
 
 //    Print decreasing
@@ -36,6 +37,22 @@ public class NumberList {
         System.out.println(n);
         PDI(n-1);
         System.out.println(n);
+    }
+
+//    First Odd then Even
+
+    public static void PDIskip(int n){
+        if(n==0){
+            return;
+        }
+        if (n%2==1){
+            System.out.println(n);
+
+        }
+        PDIskip(n-1);
+            if(n%2==0){
+              System.out.println(n);
+        }
     }
 
 }
