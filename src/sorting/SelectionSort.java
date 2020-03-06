@@ -7,27 +7,29 @@ public class SelectionSort {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        int [] arr=new int[n];
+        int [] intArray=new int[n];
         for (int i=0;i<n;i++){
-            arr[i]=sc.nextInt();
+            intArray[i]=sc.nextInt();
         }
-        int minvalue=arr[0];
-        int minindex=0;
-        for (int i=minindex+1;i<n;i++){
-            if(arr[i]<minvalue){
-                minvalue=arr[i];
-                minindex=i;
+        for(int lastUnsortedIndex = intArray.length-1; lastUnsortedIndex > 0; lastUnsortedIndex --) {
+
+            int largest = 0;
+
+            for(int i = 1; i <= lastUnsortedIndex; i++) {
+
+                if(intArray[i] > intArray[largest]) {
+                    largest = i;
+                }
             }
-        }
-        for (int i=0;i<n;i++){
-            Swap(arr,i,minindex);
+            Swap(intArray, largest, lastUnsortedIndex);
         }
 
         for (int i=0;i<n;i++){
-            System.out.println(arr[i]);
+            System.out.println(intArray[i]);
         }
 
     }
+
     private static void Swap(int[] arr,int i,int j){
         int temp;
         temp=arr[i];
