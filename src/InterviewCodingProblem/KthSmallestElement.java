@@ -14,6 +14,7 @@ public class KthSmallestElement {
 //            while (t-- != 0) {
 //                int n;
 //                n = sc.nextInt();
+
                 int[] arr = {7,10,4,3,20,15};
 //                for (int i = 0; i < n; i++) {
 //                    arr[i] = sc.nextInt();
@@ -22,6 +23,9 @@ public class KthSmallestElement {
 
                 System.out.println(KthElement(arr,6,3));
 //            }
+
+            double val=2.1;
+            System.out.printf("%.2f",val);
         } catch (Exception e) {
             e.printStackTrace();
         }
