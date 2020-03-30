@@ -7,13 +7,14 @@ public class LastIndexFind {
 		Scanner sc = new Scanner(System.in);
 
 		try {
-			int n = sc.nextInt();
-			int[] arr = new int[n];
-			for (int i = 0; i < n; i++) {
-				arr[i] = sc.nextInt();
-			}
-			int num=sc.nextInt();
-			
+//			int n = sc.nextInt();
+//			int[] arr = new int[n];
+//			for (int i = 0; i < n; i++) {
+//				arr[i] = sc.nextInt();
+//			}
+//			int num=sc.nextInt();
+			int[] arr={8,1,8,5,11};
+			int num=8;
 			System.out.println(lIndex(arr, 0, num));
 		} catch (Exception e) {
 			// TODO: handle exception
