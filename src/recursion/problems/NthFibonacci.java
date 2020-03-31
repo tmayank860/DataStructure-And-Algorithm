@@ -5,8 +5,8 @@ public class NthFibonacci {
         System.out.print(fib(9));
     }
     public static int fib(int n){
-        if (n==1||n==0){
-            return 1;
+        if (n<=1){
+            return n;
         }
         int fnm1=fib(n-1);
         int fnm2=fib(n-2);
