@@ -3,7 +3,7 @@ package array;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ArrayLists {
+public class ArrayLists<S> {
     public static void main(String[] args) {
         List<String> ls=new ArrayList();
         ls.add("Mick");

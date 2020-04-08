@@ -5,7 +5,7 @@ public class SortedArray {
 
         int arr[]={3,4,7,9};
         System.out.print(sorted(arr,0));
-    }
+    }  
     public static boolean sorted(int[] arr,int i){
         if(i==arr.length-1){
             return true;
