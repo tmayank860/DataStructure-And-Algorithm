@@ -41,8 +41,6 @@ public class SubSequenceString {
         for (int i=0;i<recResult.size();i++){
             myResult.add(recResult.get(i));
             myResult.add(cc+recResult.get(i));
-            int ascii=(int)cc;
-            myResult.add((ascii) + recResult.get(i));
         }
         return myResult;
 
