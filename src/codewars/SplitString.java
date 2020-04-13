@@ -56,6 +56,8 @@ public class SplitString {
     }
 
 
+
+
     public static String[] solution4(String s) {
         String[] arr = s.split("(?<=\\G.{2})");
 
@@ -64,4 +66,7 @@ public class SplitString {
 
         return arr;
     }
+
+
+
 }
