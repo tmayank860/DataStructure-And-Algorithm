@@ -6,9 +6,11 @@ public class QueueUsingArrays {
         q.enqueue(12);
         q.enqueue(23);
         q.enqueue(43);
+        System.out.println(q.front());
         System.out.println(q.dequeue());
         q.enqueue(18);
         System.out.println(q.size());
+        System.out.println(q.front());
         System.out.println(q.isEmpty());
         q.display();
     }
