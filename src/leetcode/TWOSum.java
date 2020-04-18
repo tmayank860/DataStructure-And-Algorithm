@@ -7,8 +7,8 @@ import java.util.Hashtable;
 public class TWOSum {
     public static void main(String[] args) {
         TWOSum ts=new TWOSum();
-        int [] arr={3,2,3};
-        System.out.println(Arrays.toString(ts.twoSum(arr, 6)));
+        int [] arr={3,5,-4,8,11,1,-1,6};
+        System.out.println(Arrays.toString(ts.twoSum(arr, 10)));
     }
     public int[] twoSum(int[] nums, int target) {
         int[] r=new int[2];
