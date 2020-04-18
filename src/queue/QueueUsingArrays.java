@@ -65,6 +65,7 @@ public class QueueUsingArrays {
             int ai=(this.front+i)%this.data.length;
             System.out.print(this.data[ai]+"=>");
         }
+        System.out.println("END");
     }
 
 
