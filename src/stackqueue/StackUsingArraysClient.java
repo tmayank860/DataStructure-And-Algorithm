@@ -1,4 +1,4 @@
-package stack;
+package stackqueue;
 
 public class StackUsingArraysClient {
     public static void main(String[] args) throws Exception {

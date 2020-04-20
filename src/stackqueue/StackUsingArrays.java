@@ -1,4 +1,4 @@
-package stack;
+package stackqueue;
 
 public class StackUsingArrays {
     private final int[] data;

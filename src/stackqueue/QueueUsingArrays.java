@@ -1,4 +1,4 @@
-package queue;
+package stackqueue;
 
 public class QueueUsingArrays {
     public static void main(String[] args) throws Exception {

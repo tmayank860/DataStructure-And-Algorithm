@@ -1,8 +1,6 @@
-package leetcode;
+package leetcode.easy;
 
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Hashtable;
 
 public class TWOSum {
     public static void main(String[] args) {
