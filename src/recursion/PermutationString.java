@@ -14,7 +14,6 @@ public class PermutationString {
         if (str.length() == 0) {
             ArrayList<String> br = new ArrayList<>();
             br.add("");
-            
             return br;
         }
         char ch = str.charAt(0);
