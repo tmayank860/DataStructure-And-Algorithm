@@ -45,6 +45,7 @@ public class LinkedListBasicOperation {
         return this.tail.data;
     }
 
+//    O(n)
     public void display() {
         Node temp = this.head;
         System.out.println("-----------------------------");
@@ -72,6 +73,7 @@ public class LinkedListBasicOperation {
             size++;
         }
     }
+//O(1)
 
     public void insertAtFirst(int value) {
         Node nn = new Node();
