@@ -40,14 +40,14 @@ public class LinkedListBasicOperation {
         ls.display();
 
     }
-
+// First Element of LL
     public int getFirst() throws Exception {
         if (size == 0) {
             throw new Exception("Empty List");
         }
         return this.head.data;
     }
-
+//  Last Element of LL
     public int getLast() throws Exception {
         if (size == 0) {
             throw new Exception("LL is Empty");
@@ -66,7 +66,7 @@ public class LinkedListBasicOperation {
         System.out.println();
         System.out.println("-----------------------------");
     }
-
+//O(n)
     public void insertAtLast(int value) {
         Node nn = new Node();
         nn.data = value;
